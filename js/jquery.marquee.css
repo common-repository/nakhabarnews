@@ -1,0 +1,54 @@
+.marquee {
+	width: 300px;
+	padding: 0px 5px;
+	overflow: hidden;
+	/*border: 1px solid #ccc; */
+	/*background: #ccc;*/
+}
+.ver {
+	width: 100%;
+	padding: 5px;
+	margin: auto;
+	direction: rtl;
+	font-size: medium;
+}
+.widget_nn_nakhabarnews {
+	margin: auto;
+	direction: rtl;
+}
+.mh {
+	color: #74C653;
+	font-size: 85%;
+}
+/* no decoration */
+.top_description li:hover, .top_description li:focus, .top_description li:active {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.top_description a:link {
+	text-decoration: none;
+}
+.top_description a:visited {
+	text-decoration: none;
+}
+
+/* customized decoration */
+
+.top_description {
+        direction: rtl;
+        text-align: right;
+        margin: 20px 0px;
+        font-size: medium;
+}
+
+.top_description li {
+        list-style-type: disc;
+        padding-bottom: 4px;
+        font-size: medium;
+}
+
+.top_description a {
+        color: #009BFF;
+        font-style: italic;
+}
+
